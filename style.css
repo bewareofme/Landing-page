@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
+    padding:0 60px;
 }
 .logo{
     font-size: 24px;
@@ -64,6 +65,7 @@ button{
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 40px;
 }
 .body1header{
     display: flex;
@@ -93,6 +95,7 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding:40px;
 }
 .quote{
     font-size: 36px;
@@ -104,4 +107,40 @@ button{
     width:616px;
     display: flex;
     justify-content: flex-end;
+}
+.b3container1{
+    background-color: #3882F6;
+    width:720px;
+    display: flex;
+    padding:20px;
+    border-radius: 10px;
+
+}
+.body3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:70px;
+}
+.cta{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.cta .main{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.ctabutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
