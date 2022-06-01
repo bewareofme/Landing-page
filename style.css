@@ -22,7 +22,7 @@ ul{
 }
 .main{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 .secondary{
@@ -32,25 +32,32 @@ ul{
 button{
     background-color: lightblue;
 }
-.left{
+.left,.right{
     display:flex;
     flex-flow: column wrap;
+    justify-content: space-between;
 
 }
 .placeholder{
-    height: 300px;
-    width: 310px;
+    height: 194px;
+    width: 360px;
     background-color: grey;
 }
 .links{
     display: flex;
     gap:16px;
+    margin-top:0;
 }
 .awesome{
-    height: 360px;
     width:360px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 0px;
+}
+.links,.placeholder,.logo,.awesome{
+    margin-bottom: 40px;
+}
+button{
+    border-radius: 10px;
 }
