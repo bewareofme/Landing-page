@@ -30,7 +30,9 @@ ul{
     color: #E5E7EB;
 }
 button{
-    background-color: lightblue;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
 }
 .left,.right{
     display:flex;
@@ -58,6 +60,30 @@ button{
 .links,.placeholder,.logo,.awesome{
     margin-bottom: 40px;
 }
-button{
-    border-radius: 10px;
+.body1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.body1header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:36px ;
+    font-weight:bolder ;
+    color:#1F2936 ;
+    height: 100px;
+}
+.illustration{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    flex-wrap: wrap;
+}
+.cards{
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+.text{
+    width: 130px;
 }
